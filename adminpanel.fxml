@@ -48,7 +48,7 @@
 
 <VBox fx:controller="AdminPanelController" prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
   <children>
-    <AnchorPane fx:id="dashboardContent" maxHeight="-1.0" maxWidth="-1.0" prefHeight="400.0" prefWidth="621.0" style="-fx-background-color: #4b548b;" VBox.vgrow="ALWAYS">
+    <AnchorPane fx:id="dashboardContent" onMouseClick="#DashboardContent" maxHeight="-1.0" maxWidth="-1.0" prefHeight="400.0" prefWidth="621.0" style="-fx-background-color: #4b548b;" VBox.vgrow="ALWAYS">
       <children>
             <Region layoutX="-5.0" prefHeight="38.0" prefWidth="647.0" style="-fx-background-color: #f7f8fa;" AnchorPane.leftAnchor="-5.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
             <Region fx:id="sidebar" layoutY="38.0" prefHeight="363.0" prefWidth="192.0" style="-fx-background-color: #9fa5c8;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="37.0" />
