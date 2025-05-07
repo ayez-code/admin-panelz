@@ -10,7 +10,7 @@ public class AdminPanelController {
     private AnchorPane dashboardContent;
 
     @FXML
-    public void handleUsersClick(MouseEvent event) {
+    public void DashboardContent(MouseEvent event) {
         try {
             FXMLLoader loader = new FXMLLoader(getClass().getResource("userspanel.fxml"));
             AnchorPane usersPanel = loader.load();
